@@ -11,8 +11,4 @@ function statsWithUppercaseLetter(str) {
   return firstLetterCode >= 65 && firstLetterCode <= 90;
 }
 
-module.exports = {
-  StringUtils: {
-    statsWithUppercaseLetter,
-  }
-}
+module.exports = statsWithUppercaseLetter;
